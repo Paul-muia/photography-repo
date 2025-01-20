@@ -29,12 +29,18 @@ header h1 {
     text-align: left;
     color: rgb(209, 64, 64);
    
+   
 }
 
 nav ul {
     list-style-type: none;
     text-align: right;
     margin-top: 10px;
+}
+nav ul :hover{
+    background-color: white;
+    color: black;
+    
 }
 
 nav ul li {
