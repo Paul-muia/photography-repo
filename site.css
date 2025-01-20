@@ -22,11 +22,13 @@ header {
     background-color: #333;
     color: white;
     padding: 20px 0;
+   
 }
 
 header h1 {
     text-align: left;
-    color: l;
+    color: rgb(209, 64, 64);
+   
 }
 
 nav ul {
@@ -91,7 +93,7 @@ nav ul li a {
 }
 
 #contact a {
-    color: #333;
+    color: #c21f1f;
     text-decoration: none;
     font-weight: bold;
 }
@@ -100,7 +102,7 @@ nav ul li a {
 footer {
     background-color: #333;
     color: white;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
