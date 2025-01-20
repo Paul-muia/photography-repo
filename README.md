@@ -1,2 +1,3 @@
-# photography  repo
- a photography website
+# photography-repo
+
+a photography website
