@@ -95,30 +95,54 @@ nav ul li a {
 /* team section*/
 #team {
     background-color: #e4e2e2;
+    text-align: center;
+    padding: 40px 0;
 }
-.gallery2{
-    margin-top: 20px;
-   display: flex;
-   justify-content: space-between;
-   align-items:center ;
-   
+#team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
 
-   
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
 }
-.gallery2 img{
-    width: 40%;
-    height: auto;
+
+.team-member {
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 10px;
-   
-   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.gallery2 div p{
-    color: rgb(32, 7, 7);
-    padding-top: 20px;
-    font-weight: 700;
-    font-size: large;
-    
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
 
 /* Contact Section */
 #contact {
